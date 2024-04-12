@@ -11,7 +11,7 @@ console.log(card.clientWidth);
 let offset = [0, 708, 1376, 2044, 2712];
 let offsetPosition = 0;
 
-if (document.body.clientWidth === 360) {
+if (document.body.clientWidth < 700) {
   offset = [0, 320, 600, 900, 1200, 1500];
 }
 
